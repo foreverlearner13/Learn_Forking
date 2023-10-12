@@ -6,21 +6,5 @@ int main(){
     printf("Masukkan banyaknya baris: ");
     scanf("%d", &n);
 
-    
-    for(i=1, s=n; i<=n; i++, s--){
-        for(k=1; k<s;k++){
-            printf(" ");
-        }
-        for(j=1; j<=i;j++){
-            printf("%d ",j);
-        }
-        printf("\n");
-
-    }
-
-
-
-
-
     getch();
 }
